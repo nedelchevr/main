@@ -1,7 +1,8 @@
 <?php
-$radius=4;
-$area= M_PI*($radius**2);
-$circum=2*M_PI*$radius;
-echo "The circle's area is: ".round($area,2)."\n";
-echo "The circle's circumference is: ".round($circum, 2);
+$lenght=15;
+$widht=20;
+$area = $lenght * $widht;
+$perimeter= $lenght*2+$widht*2;
+echo "The area of the rectangle is: $area cm2 \n";
+echo "THe perimeter of the rectangle is: $perimeter cm";    
 ?>
